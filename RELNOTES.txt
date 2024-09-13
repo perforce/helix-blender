@@ -1,0 +1,44 @@
+                             Release Notes for
+                            Helix Blender Add-on
+
+                              2024.1 Release
+
+Introduction
+
+    The Helix Blender Add-on enables artists and designers to work with Helix 
+    Digital Asset Management (DAM) without the need to leave Blender. Helix DAM 
+    users can seamlessly version control all their .blend files directly from 
+    Blender including navigating DAM projects and collections, reviewing 
+    comments on each file version, and downloading/uploading .blend files.
+
+    The add-on requires a connection to a Helix Core Server, active Helix DAM
+    license(s), and an existing installation of Helix Sync.
+
+    Perforce numbers releases YYYY.R/CCCCCC. For example, 2012.1/40716.
+    YYYY is the year; R is the release of that year; CCCCCC is the
+    bug fix change level. Each bug fix in these release notes is
+    marked by its change number. Any build includes (1) all bug fixes
+    of all previous releases and (2) all bug fixes of the current
+    release up to the bug fix change level.
+
+    Send all feedback to support@perforce.com.
+
+Minimum Requirements
+
+    Blender 3.3 to 4.2
+    Helix Core Server 2019.1 or later
+    Helix DAM 2023.4 or later
+    Helix Sync 2023.4.0 or later
+
+Supported Platforms
+
+    Windows (x64)
+        Windows 10
+        Windows 11
+    macOS (x86_64, arm64)
+        13.2 (Ventura)
+
+Documentation
+
+   See the documentation for installation and usage instructions: 
+   https://help.perforce.com/helix-core/helix-dam/current/user/Content/HelixDAM-User/integrating-with-Blender.html
