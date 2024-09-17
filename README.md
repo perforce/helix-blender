@@ -62,7 +62,7 @@ We welcome contributions to the Helix-Blender Plugin! If you’d like to contrib
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the GPL License. See the [LICENSE](LICENSE.txt) file for details.
 
 ## Support
 
