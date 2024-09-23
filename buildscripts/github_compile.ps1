@@ -17,7 +17,14 @@ if (Test-Path "venv") {
 
 New-Item -ItemType Directory -Path "venv"
 
-py -m venv venv
+# Try to run the script using 'py'
+$pythonCommand = "py"
+if (-not (Get-Command $pythonCommand -ErrorAction SilentlyContinue)) {
+    # Fallback to 'python' if 'py' is not available
+    $pythonCommand = "python"
+}
+
+& $pythonCommand -m venv venv
 & "$build\src\helix_blender_plugin\dam_app\venv\Scripts\Activate.ps1"
 
 python.exe -m pip install --upgrade pip
